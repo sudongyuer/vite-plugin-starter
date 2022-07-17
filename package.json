@@ -34,6 +34,7 @@
   "scripts": {
     "dev": "unbuild --stub",
     "build": "unbuild",
+    "changeset": "changeset add",
     "test": "vitest",
     "version": "changeset version",
     "release": "pnpm run build && pnpm run release:only",
